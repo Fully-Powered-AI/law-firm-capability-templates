@@ -4,6 +4,14 @@
   "term": "industries/law-firms",
   "capabilities": [
     {
+      "id": "client-billing-summary",
+      "name": "Client billing summary",
+      "version": "0.1.0",
+      "summary": "Before an invoice goes out, the billing coordinator has a summary the client can read: fees by timekeeper, task and phase, expenses and write-downs, tied to the pre-bill. Every entry that breaks the client's billing guidelines reaches the responsible attorney as a decision, with the amount at stake.",
+      "path": "client-billing-summary/",
+      "directory": "https://fullypowered.ai/capabilities/client-billing-summary/"
+    },
+    {
       "id": "court-order-deadline-notice-preparation",
       "name": "Court-order deadline notice preparation",
       "version": "0.1.0",
@@ -18,6 +26,14 @@
       "summary": "Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.",
       "path": "inquiry-handoff/",
       "directory": "https://fullypowered.ai/capabilities/inquiry-handoff/"
+    },
+    {
+      "id": "matter-budget-and-status-summary",
+      "name": "Matter budget and status summary",
+      "version": "0.1.0",
+      "summary": "The responsible partner sees one matter whole: scope, phases against their dates, the budget against fees to date and the projected total, a red, amber or green status with the rule behind it, risks and next actions with owners. Built from the time export and the matter plan, never a view on the merits.",
+      "path": "matter-budget-and-status-summary/",
+      "directory": "https://fullypowered.ai/capabilities/matter-budget-and-status-summary/"
     },
     {
       "id": "matter-opening-checklist-preparation",
