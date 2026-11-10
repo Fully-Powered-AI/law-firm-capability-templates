@@ -1,8 +1,16 @@
 {
-  "repository": "Fully-Powered-AI/law-firm-capabilities",
+  "repository": "Fully-Powered-AI/law-firm-capability-templates",
   "title": "Law Firms",
   "term": "industries/law-firms",
   "capabilities": [
+    {
+      "id": "court-order-deadline-notice-preparation",
+      "name": "Court-order deadline notice preparation",
+      "version": "0.1.0",
+      "summary": "When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied or proposed from the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.",
+      "path": "court-order-deadline-notice-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/court-order-deadline-notice-preparation/"
+    },
     {
       "id": "inquiry-handoff",
       "name": "Inquiry handoff",
@@ -18,6 +26,14 @@
       "summary": "Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.",
       "path": "matter-opening-checklist-preparation/",
       "directory": "https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/"
+    },
+    {
+      "id": "weekly-open-matter-check",
+      "name": "Weekly open-matter check",
+      "version": "0.1.0",
+      "summary": "Every Monday the operations manager sees every open matter: which tasks are overdue, which have no owner, and which matters could not be checked at all. The managing partner gets one summary, and each responsible attorney gets a note that is drafted and ready for the manager to send.",
+      "path": "weekly-open-matter-check/",
+      "directory": "https://fullypowered.ai/capabilities/weekly-open-matter-check/"
     }
   ]
 }

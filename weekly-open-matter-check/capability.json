@@ -1,0 +1,44 @@
+{
+  "id": "weekly-open-matter-check",
+  "name": "Weekly open-matter check",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every Monday the operations manager sees every open matter: which tasks are overdue, which have no owner, and which matters could not be checked at all. The managing partner gets one summary, and each responsible attorney gets a note that is drafted and ready for the manager to send.",
+  "directory": "https://fullypowered.ai/capabilities/weekly-open-matter-check/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "matter-opening-checklist-preparation",
+    "client-status-update-preparation",
+    "weekly-receivables-summary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own built example of a weekly check of open matters, made with invented records."
+    }
+  ]
+}

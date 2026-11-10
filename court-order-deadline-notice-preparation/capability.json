@@ -1,0 +1,43 @@
+{
+  "id": "court-order-deadline-notice-preparation",
+  "name": "Court-order deadline notice preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied or proposed from the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.",
+  "directory": "https://fullypowered.ai/capabilities/court-order-deadline-notice-preparation/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "matter-opening-checklist-preparation",
+    "sop-exception-capture",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own built worked example of a court-order notice, made for an invented firm and an invented court."
+    }
+  ]
+}
