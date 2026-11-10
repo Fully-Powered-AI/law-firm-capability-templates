@@ -1,0 +1,66 @@
+{
+  "id": "outgoing-work-sign-off-log",
+  "name": "Outgoing work sign-off log",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every item that needs a responsible attorney's sign-off before it leaves the firm sits in one log, in the order it has to go out: waiting, approved or returned, with the attorney's own note. Anything close to its date with no decision is flagged first. The log tracks status and never touches the legal substance.",
+  "directory": "https://fullypowered.ai/capabilities/outgoing-work-sign-off-log/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "weekly-open-matter-check",
+    "court-order-deadline-notice-preparation",
+    "client-status-update-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The firm version of the work: status only, with no draft read or judged; items ordered by send-by date with a warning window in working days; decisions accepted only from the named attorney's own message or a named covering attorney; flags for work sent before approval, decisions passed on second-hand and items with no attorney or no date; an exported log with stated column headers and a stop on any mismatch; and a proposed update with history lines that a person checks and saves."
+    },
+    {
+      "kind": "third-party",
+      "repository": "uk-agents/uk-legal-plugins",
+      "commit": "ca3b870c3f469902458940f65986787de8a4a5b2",
+      "path": "legal-clinic-uk/skills/supervisor-review-queue/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Its version of the clinic review queue for England and Wales, which keeps a line for every action naming the supervising lawyer, the date and any comment, and treats the log as the clinic's evidence of supervision.",
+      "text_reused": false,
+      "notice": "notices/uk-agents-uk-legal-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/claude-for-legal",
+      "commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+      "path": "legal-clinic/skills/supervisor-review-queue/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "The original clinic review queue that the uk-agents version adapts: a student's work held until the supervising lawyer approves it or returns it with a comment, the most pressing items shown first, and approval kept with the supervising lawyer alone.",
+      "text_reused": false,
+      "notice": "notices/anthropics-claude-for-legal-LICENSE.txt"
+    }
+  ]
+}

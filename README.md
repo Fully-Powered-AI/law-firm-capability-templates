@@ -2,7 +2,7 @@
 
 A firm where nothing waits on someone remembering. These capability templates are written for the people who run the business side of a law firm: intake, matter opening and the operations around the practice. They prepare the administrative work. They give no legal advice, and the firm's lawyers and staff make every decision.
 
-This repository holds 6 capability templates for the people who run the business side of a law firm. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 7 capability templates for the people who run the business side of a law firm. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
@@ -11,6 +11,7 @@ This repository holds 6 capability templates for the people who run the business
 - **[Inquiry handoff](inquiry-handoff/)**: Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.
 - **[Matter budget and status summary](matter-budget-and-status-summary/)**: The responsible partner sees one matter whole: scope, phases against their dates, the budget against fees to date and the projected total, a red, amber or green status with the rule behind it, risks and next actions with owners. Built from the time export and the matter plan, never a view on the merits.
 - **[Matter-opening checklist preparation](matter-opening-checklist-preparation/)**: Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.
+- **[Outgoing work sign-off log](outgoing-work-sign-off-log/)**: Every item that needs a responsible attorney's sign-off before it leaves the firm sits in one log, in the order it has to go out: waiting, approved or returned, with the attorney's own note. Anything close to its date with no decision is flagged first. The log tracks status and never touches the legal substance.
 - **[Weekly open-matter check](weekly-open-matter-check/)**: Every Monday the operations manager sees every open matter: which tasks are overdue, which have no owner, and which matters could not be checked at all. The managing partner gets one summary, and each responsible attorney gets a note that is drafted and ready for the manager to send.
 
 ## How to use one

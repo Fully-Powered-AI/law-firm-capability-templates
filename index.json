@@ -44,6 +44,14 @@
       "directory": "https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/"
     },
     {
+      "id": "outgoing-work-sign-off-log",
+      "name": "Outgoing work sign-off log",
+      "version": "0.1.0",
+      "summary": "Every item that needs a responsible attorney's sign-off before it leaves the firm sits in one log, in the order it has to go out: waiting, approved or returned, with the attorney's own note. Anything close to its date with no decision is flagged first. The log tracks status and never touches the legal substance.",
+      "path": "outgoing-work-sign-off-log/",
+      "directory": "https://fullypowered.ai/capabilities/outgoing-work-sign-off-log/"
+    },
+    {
       "id": "weekly-open-matter-check",
       "name": "Weekly open-matter check",
       "version": "0.1.0",
