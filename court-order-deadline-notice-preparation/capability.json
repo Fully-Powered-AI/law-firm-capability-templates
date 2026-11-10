@@ -3,7 +3,7 @@
   "name": "Court-order deadline notice preparation",
   "kind": "capability-template",
   "version": "0.1.0",
-  "summary": "When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied or proposed from the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.",
+  "summary": "When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.",
   "directory": "https://fullypowered.ai/capabilities/court-order-deadline-notice-preparation/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [

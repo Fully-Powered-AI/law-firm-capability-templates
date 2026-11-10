@@ -182,3 +182,15 @@ The first draft of the instructions was run once on the same inputs, in the same
 7. **The date format** was not stated. It is now YYYY-MM-DD.
 8. **"Also on the sheet"** did not say whether a matter with only finished tasks belongs there. It now does.
 9. **The note's subject** said "open tasks" although the note lists only overdue, unowned and undated tasks. It now says "tasks needing attention", and the template says an owned task with a date not yet passed is left out of the note.
+
+## Edits after the recorded run
+
+**9 November 2026.** The template was edited after the run recorded above, following its independent review, and was not run again. The recorded output and observations above are unchanged and describe the instructions as they stood at the run. What changed:
+
+- The settings gained a status word for an open matter (default "open"), and the settings line now prints it. The recorded run's settings line does not have it.
+- Fixed wording was given for the reason beside a matter that could not be assessed, for the reasons of a partial outcome and for the entries of "Also on the sheet", which were points 1 and 2 of the choices left to the assistant. The recorded run's wording of those three differs from the fixed wording.
+- The instructions now say what a stopped check prints: the coverage line with the expected count and "assessed 0", and the outcome "stopped".
+- They now say that a task that could not be read is left out of the open counts and the finished count, that an unowned task due on the check date goes under "Not yet due, no owner", and that every line of the format ending "or none" is always printed.
+- In the published example, the settings line and the outcome line were brought into line with these edits, and the line saying that T-08 is due on the check date and is not overdue was removed from the list for the operations manager, because the instructions do not ask for it. The example's figures were not changed.
+
+None of these edits has been tried in a run.

@@ -24,7 +24,7 @@ The responsible attorney on each matter confirms the counts in the note and deci
 - **The roster of open matters.** A dated list kept outside the case system, usually by billing: a matter is open while the firm bills it. This is the independent count.
 - **The matters export** from the case system: matter, client, responsible attorney, status.
 - **The tasks export** from the case system: task, matter, owner, due date, status.
-- **The firm's settings,** once: how old the roster may be, the size of the list, the words the case system uses for open and finished tasks, and the column headers of the three files.
+- **The firm's settings,** once: how old the roster may be, the size of the list, the words the case system uses for open and finished tasks and for an open matter, and the column headers of the three files.
 
 The capability works from these exported files. It needs no connection to the case system and no sign-in details.
 
@@ -53,7 +53,7 @@ Name who keeps the roster and how old it may be before the check waits for a new
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own built example of this check, which used invented records. It was editorially reviewed on 9 November 2026. It was tried once on its invented example, and the record is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this capability template from its own built example of this check, which used invented records. It was editorially reviewed on 9 November 2026. It was tried on its invented example in two runs, one on a first draft and one on the revised instructions, and the record is published with it. The instructions had small edits after the second run, which the record lists. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on past weeks your operations manager already checked by hand, with cases written in advance: a matter missing from the export, a roster that is two weeks old, a done task with an old due date, a task due on the check date. The manager checks the coverage line against the roster and one matter's counts against the case system before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 

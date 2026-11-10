@@ -6,7 +6,7 @@ This repository holds 4 capability templates for the people who run the business
 
 ## The capabilities
 
-- **[Court-order deadline notice preparation](court-order-deadline-notice-preparation/)**: When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied or proposed from the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
+- **[Court-order deadline notice preparation](court-order-deadline-notice-preparation/)**: When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
 - **[Inquiry handoff](inquiry-handoff/)**: Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.
 - **[Matter-opening checklist preparation](matter-opening-checklist-preparation/)**: Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.
 - **[Weekly open-matter check](weekly-open-matter-check/)**: Every Monday the operations manager sees every open matter: which tasks are overdue, which have no owner, and which matters could not be checked at all. The managing partner gets one summary, and each responsible attorney gets a note that is drafted and ready for the manager to send.

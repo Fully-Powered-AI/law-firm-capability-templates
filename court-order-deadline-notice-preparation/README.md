@@ -1,6 +1,6 @@
 # Court-order deadline notice preparation
 
-When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied or proposed from the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
+When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
 
 *Capability template · Law firms · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/court-order-deadline-notice-preparation/)*
 
@@ -31,7 +31,7 @@ One draft notice, marked as a draft, for the matter team:
 - **Dates:** copied from the order, or proposed under a named rule with the count shown, or marked “Not computed” with the reason.
 - **Hearings:** set, moved and vacated, so docketing can see what must come off the calendar.
 - **Amounts:** the exact figure, who pays, who is paid.
-- **Attorney to confirm:** every proposed date and every date left for the attorney, one line each.
+- **Attorney to confirm:** a line to answer for every proposed date, every copied deadline and every date left for the attorney, then the hearings and whether every directive is listed.
 - **Check:** pages read against the order’s own footer, the rule file and closure list used with their dates, and how the counting was done.
 
 The legal assistant reads the draft against the order and gives it to the handling attorney. The attorney confirms each line or corrects it. Only then does the notice go to the matter team and docketing put dates on the calendar. The notice never goes to the client.
@@ -54,7 +54,7 @@ We sit with the assistant who writes the notices and the attorney who owns the p
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own built example for an invented firm. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this capability template from its own built example for an invented firm. It was editorially reviewed on 9 November 2026. It was tried on its invented example in Claude on 9 November 2026, and the record of that run, which replaced an earlier one from the same day, is published with the template. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your firm means running it on past orders whose dates your attorneys already settled, and comparing: every directive found, every proposed date equal to the attorney’s, every uncovered count left alone, nothing sent. Include an order with a directive in a footnote, one counted from service and one with a page missing. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 

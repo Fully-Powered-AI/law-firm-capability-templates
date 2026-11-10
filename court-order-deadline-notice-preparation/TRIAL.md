@@ -9,6 +9,8 @@ The inputs are the invented example published with this template. The firm, its 
 
 This record replaces an earlier one from the same day. The earlier run, on the first text of the template, proposed no date for the meet and confer while the published example proposed one, because the template did not say what a "mixed" sentence was. The template now defines it, the example follows the cautious reading, and several smaller choices the earlier run had to make are now written down. The run below was made after those changes.
 
+Edited after this run, 2026-11-09: the template's instructions were changed in four places after review, and the run was not repeated. The assistant now asks for today's date when it is not given and proposes no date until it has it. A count is not computed when its rule refers to the closure list and no list was supplied. A count is also not computed when a rule's wording is unclear, and the note to the legal assistant now names any such count, or one where two rules could apply, to raise with the rule file owner. A moved hearing is written as one VACATED line and one SET line, which is what this run did. None of these changes a date in the example. The output and the observations below are as recorded on the day, so the observation that the format has no word for a moved hearing describes the instructions as they stood for the run.
+
 ## Inputs used
 
 Exactly the four inputs the legal assistant supplies in [the example](example.md), and nothing else:

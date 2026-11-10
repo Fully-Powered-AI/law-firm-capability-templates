@@ -34,7 +34,7 @@ Do not use it for:
 3. **The people on the matter**, read from the firm's matter record: handling attorney, supervising attorney, paralegal, docketing. Never the client.
 4. **The firm's written deadline rule file.** It must show its date, its review date, the attorney who approved it, the courts it covers, and each kind of count staff may propose with exactly how it is counted. If it is missing, past its review date or silent on this court, no date is counted.
 5. **The court-closure list** for that court, kept by docketing, with the period it covers. Needed only if a rule in the rule file refers to it.
-6. **Today's date**, so the review date can be checked.
+6. **Today's date**, so the review date can be checked. If it is not given, the AI assistant asks for it and does not assume it; until it is given, no date is counted.
 
 ## The procedure
 
@@ -45,8 +45,8 @@ Do not use it for:
 5. **List every deadline date and every count**, in the order the order gives them, each as one of three kinds. A hearing date is not listed here: it is copied under Hearings in step 6 and counted there.
    - **Copied.** The order states the date. Copy it as written, with its page. Never recount it.
    - **Proposed.** The order gives a count, and the rule file has a rule whose listed wording and conditions match that count. Apply that rule exactly as written and show the working: the start date and where it was read, each step, each closed day that moved the last day, the result with its weekday, the rule's identifier. A closed day in the middle of a count is counted or skipped exactly as the rule says; under a calendar-day rule it is counted. Use a code or calculation tool where the AI product has one and say so; otherwise count day by day in the working.
-   - **Not computed.** Anything else: the rule file has no matching rule; the sentence is mixed, meaning the sentence that holds the count also holds a count of another kind (in court days, from service, backwards from a hearing, from the date signed) or ties two counts together with a word such as "whichever", even when the two counts belong to different tasks; the start date is not in the order; or the result falls outside the closure list's period. Copy the court's sentence and give the reason. The attorney supplies the date.
-6. **List hearings** the order sets, moves or vacates, with date, time and place, copied as written and never recounted. Mark a vacated hearing VACATED in capitals so docketing sees what must come off the calendar.
+   - **Not computed.** Anything else: the rule file has no matching rule; the sentence is mixed, meaning the sentence that holds the count also holds a count of another kind (in court days, from service, backwards from a hearing, from the date signed) or ties two counts together with a word such as "whichever", even when the two counts belong to different tasks; the start date is not in the order; the matching rule refers to the closure list and no closure list was supplied; or the result falls outside the closure list's period. Copy the court's sentence and give the reason. The attorney supplies the date.
+6. **List hearings** the order sets, moves or vacates, with date, time and place, copied as written and never recounted. Mark a vacated hearing VACATED in capitals so docketing sees what must come off the calendar. A moved hearing is written as two lines: the old date VACATED and the new date SET.
 7. **List amounts** exactly as written, with who pays, who is paid and the court's words on when. Derive nothing from them.
 8. **Build the attorney-to-confirm list:** one line for each proposed date, each copied deadline, each "Not computed" count, the hearings, and the completeness of the directives.
 9. **Write the check block:** pages read against the footer, the tally of directives, dates and hearings, the rule file and closure list with their dates, how the counting was done, and a statement that no date appears that is not in the order or shown with working.
@@ -75,6 +75,7 @@ Stops on the rule file:
 - **The rule file does not cover a count in this order.** Stop on that line. Say "the rule file does not cover" and what kind of count it is. Do not use a similar rule, a general rule or anything remembered.
 - **A count the rule file covers shares its sentence with another kind of count.** The sentence is mixed. Neither count gets a proposed date, even though one of them would be covered if it stood alone. The attorney reads the sentence whole.
 - **Two rules could apply, or a rule's wording is unclear.** Treat it as not covered and tell the rule file owner.
+- **The matching rule refers to the closure list and none was supplied.** Not computed; ask docketing for the list. No date is proposed on weekends alone.
 - **A proposed date falls outside the closure list's period.** Not computed; ask docketing.
 
 Requests it declines:
@@ -219,7 +220,9 @@ or a login code.
 You will receive: the order; the matter name, case number and people on the
 matter; the firm's written deadline rule file; the court-closure list; today's
 date. The output format follows these instructions. If the output format is
-not below these instructions, ask for it before you draft.
+not below these instructions, ask for it before you draft. If today's date is
+not given, ask for it; do not assume it. Until you have it, the rule file's
+review date is unchecked: propose no date.
 
 The only counting rules you may use are the ones written in the firm's rule
 file supplied in this conversation. Use nothing you remember about any
@@ -272,8 +275,10 @@ Drafting:
    counted. If you have a code or calculation tool, use it for the
    arithmetic and say so; otherwise count day by day in the working.
    NOT COMPUTED: anything else. No rule matches; the sentence is mixed; the
-   start date is not in the order; two rules could apply; the result falls
-   outside the closure list's period. A sentence is mixed when the sentence
+   start date is not in the order; two rules could apply, or the matching
+   rule's wording is unclear; the rule refers to the closure list and none
+   was supplied (never count on weekends alone); the result falls outside
+   the closure list's period. A sentence is mixed when the sentence
    that holds the count also holds a count of another kind (in court days,
    from service, backwards from a hearing, from the date signed) or ties two
    counts together with a word such as "whichever". It is mixed even when
@@ -285,8 +290,9 @@ Drafting:
     rule and ask the legal assistant for it. If it is supplied, say in the
     check block that it came from the legal assistant.
 12. List each hearing set, moved or vacated under HEARINGS, with its date,
-    time and place as written. Write VACATED in capitals. Hearing dates are
-    listed and counted there, not under DATES.
+    time and place as written. Write VACATED in capitals. Write a moved
+    hearing as two lines, the old date VACATED and the new date SET. Hearing
+    dates are listed and counted there, not under DATES.
 13. Copy each amount exactly, with payer, payee and the court's words on
     when. Work nothing out from it.
 14. Build the attorney-to-confirm list and the check block as in the output
@@ -304,8 +310,10 @@ handling attorney's decision and that you have listed what the court ordered
 in its own words.
 
 Above the draft, write a short note to the legal assistant: which stops
-applied; which counts the rule file did not cover; any directive found
-outside the numbered list; and what people still do: read the draft against
+applied; which counts the rule file did not cover; any count where two
+rules could apply or a rule's wording is unclear, for the legal assistant
+to raise with the rule file owner; any directive found outside the
+numbered list; and what people still do: read the draft against
 the order, recount each proposed date on a calendar, give it to the handling
 attorney. End the note by saying that you have sent nothing and calendared
 nothing, and that nothing is circulated or calendared until the attorney

@@ -69,8 +69,8 @@ Input: export (matters.csv, 7 matters; tasks.csv, 13 tasks).
 Roster: dated 2026-11-02, from the billing coordinator, 7 matters, 0 days old
 (check date 2026-11-02 minus roster date 2026-11-02 = 0 days; limit 7 days).
 Settings: roster age limit 7 days; list size 10; status words open/done;
-column headers default.
-Defaults used for: column headers.
+open matter word open; column headers default.
+Defaults used for: open matter word, column headers.
 
 Coverage: expected 7 open matters per roster dated 2026-11-02 (billing
 coordinator); assessed 6 of them; could not assess 1: M-206, Client F,
@@ -79,7 +79,7 @@ In the system but not on the roster: M-208, Estate administration, Client H
 (assessed).
 On the roster with a status other than open in the system: none.
 
-Outcome: partial. One roster matter, M-206, could not be assessed.
+Outcome: partial: could not assess M-206
 
 Totals: 7 matters assessed (6 on the roster, 1 not on it); 10 open tasks;
 4 overdue; 3 unowned; 1 with no due date. 3 finished tasks were left out.
@@ -200,7 +200,6 @@ FOR THE OPERATIONS MANAGER
   shown as clear.
 - T-07 on M-203 has no due date. M-203 is not on the attention list, so no
   note was drafted; Attorney A sets the date.
-- T-08 on M-203 is due on the check date and is not overdue.
 
 Nothing was sent and nothing in the case system was changed.
 ```
