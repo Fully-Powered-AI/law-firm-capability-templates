@@ -1,0 +1,23 @@
+{
+  "repository": "Fully-Powered-AI/law-firm-capabilities",
+  "title": "Law Firms",
+  "term": "industries/law-firms",
+  "capabilities": [
+    {
+      "id": "inquiry-handoff",
+      "name": "Inquiry handoff",
+      "version": "0.1.0",
+      "summary": "Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.",
+      "path": "inquiry-handoff/",
+      "directory": "https://fullypowered.ai/capabilities/inquiry-handoff/"
+    },
+    {
+      "id": "matter-opening-checklist-preparation",
+      "name": "Matter-opening checklist preparation",
+      "version": "0.1.0",
+      "summary": "Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.",
+      "path": "matter-opening-checklist-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/"
+    }
+  ]
+}

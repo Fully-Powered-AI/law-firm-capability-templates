@@ -1,0 +1,40 @@
+{
+  "id": "matter-opening-checklist-preparation",
+  "name": "Matter-opening checklist preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.",
+  "directory": "https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services",
+    "industries/engineering-firms"
+  ],
+  "situations": [
+    "situations/acquisitions-and-integration"
+  ],
+  "related": [
+    "inquiry-handoff",
+    "account-handoff",
+    "receivables-exception-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": []
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guides."
+    }
+  ]
+}
