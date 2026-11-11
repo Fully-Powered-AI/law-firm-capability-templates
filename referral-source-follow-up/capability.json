@@ -1,0 +1,45 @@
+{
+  "id": "referral-source-follow-up",
+  "name": "Referral source follow-up",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The day after a partner meets someone who sends the firm work, they have a follow-up draft and a list of every promise made at the table, by both sides. The draft uses only approved materials and nothing said in confidence; the partner checks it, chooses the next step and sends it.",
+  "directory": "https://fullypowered.ai/capabilities/referral-source-follow-up/",
+  "primary_function": "functions/sales",
+  "functions": [
+    "functions/sales"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inquiry-handoff",
+    "cold-outreach-sequence-drafting",
+    "referral-programme-design"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of law-firm work: keeping the promises made to a referral contact, with who starts it, what goes in, what comes out and who decides."
+    }
+  ]
+}

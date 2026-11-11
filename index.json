@@ -36,6 +36,14 @@
       "directory": "https://fullypowered.ai/capabilities/matter-budget-and-status-summary/"
     },
     {
+      "id": "matter-closing-checklist-preparation",
+      "name": "Matter closing checklist preparation",
+      "version": "0.1.0",
+      "summary": "When the handling lawyer flags a matter for closure, the firm's closing checklist is filled from the matter record: final billing as recorded, open tasks, unreturned items and the handoffs billing and records must accept.",
+      "path": "matter-closing-checklist-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/matter-closing-checklist-preparation/"
+    },
+    {
       "id": "matter-opening-checklist-preparation",
       "name": "Matter-opening checklist preparation",
       "version": "0.1.0",
@@ -50,6 +58,22 @@
       "summary": "Every item that needs a responsible attorney's sign-off before it leaves the firm sits in one log, in the order it has to go out: waiting, approved or returned, with the attorney's own note. Anything close to its date with no decision is flagged first. The log tracks status and never touches the legal substance.",
       "path": "outgoing-work-sign-off-log/",
       "directory": "https://fullypowered.ai/capabilities/outgoing-work-sign-off-log/"
+    },
+    {
+      "id": "prebill-exception-review",
+      "name": "Prebill exception review",
+      "version": "0.1.0",
+      "summary": "Before the billing attorney opens a prebill, the billing coordinator has every awkward entry marked: rates that differ from the firm's rate table, possible duplicates, entries outside the client's billing guidelines, unclear narratives and expenses without support, each sent to the person who acts next.",
+      "path": "prebill-exception-review/",
+      "directory": "https://fullypowered.ai/capabilities/prebill-exception-review/"
+    },
+    {
+      "id": "referral-source-follow-up",
+      "name": "Referral source follow-up",
+      "version": "0.1.0",
+      "summary": "The day after a partner meets someone who sends the firm work, they have a follow-up draft and a list of every promise made at the table, by both sides. The draft uses only approved materials and nothing said in confidence; the partner checks it, chooses the next step and sends it.",
+      "path": "referral-source-follow-up/",
+      "directory": "https://fullypowered.ai/capabilities/referral-source-follow-up/"
     },
     {
       "id": "weekly-open-matter-check",

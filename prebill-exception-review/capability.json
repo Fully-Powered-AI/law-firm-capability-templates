@@ -1,0 +1,45 @@
+{
+  "id": "prebill-exception-review",
+  "name": "Prebill exception review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before the billing attorney opens a prebill, the billing coordinator has every awkward entry marked: rates that differ from the firm's rate table, possible duplicates, entries outside the client's billing guidelines, unclear narratives and expenses without support, each sent to the person who acts next.",
+  "directory": "https://fullypowered.ai/capabilities/prebill-exception-review/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "client-billing-summary",
+    "matter-budget-and-status-summary",
+    "overdue-invoice-follow-up-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of law-firm billing work, the prebill review in particular, written up as this capability template."
+    }
+  ]
+}
