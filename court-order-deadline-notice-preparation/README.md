@@ -2,7 +2,7 @@
 
 When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/court-order-deadline-notice-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/court-order-deadline-notice-preparation/)*
 
 ## The outcome
 
@@ -84,8 +84,8 @@ Testing in your firm means running it on past orders whose dates your attorneys 
 ## Related workflow templates
 
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

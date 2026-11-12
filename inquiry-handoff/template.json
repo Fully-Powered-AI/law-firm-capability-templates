@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.",
-  "directory": "https://fullypowered.ai/workflow templates/inquiry-handoff/",
+  "directory": "https://fullypowered.ai/workflows/inquiry-handoff/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement"

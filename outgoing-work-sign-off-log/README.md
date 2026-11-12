@@ -2,7 +2,7 @@
 
 Every item that needs a responsible attorney's sign-off before it leaves the firm sits in one log, in the order it has to go out: waiting, approved or returned, with the attorney's own note. Anything close to its date with no decision is flagged first. The log tracks status and never touches the legal substance.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/outgoing-work-sign-off-log/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/outgoing-work-sign-off-log/)*
 
 ## The outcome
 
@@ -85,7 +85,7 @@ Testing in your firm means running it on a past week your operations manager rem
 
 - [Weekly open-matter check](../weekly-open-matter-check/)
 - [Court-order deadline notice preparation](../court-order-deadline-notice-preparation/)
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
 
 ## Make it yours
 

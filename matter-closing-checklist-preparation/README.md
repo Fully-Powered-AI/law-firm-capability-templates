@@ -2,7 +2,7 @@
 
 When the handling lawyer flags a matter for closure, the firm's closing checklist is filled from the matter record: final billing as recorded, open tasks, unreturned items and the handoffs billing and records must accept.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-closing-checklist-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/matter-closing-checklist-preparation/)*
 
 ## The outcome
 

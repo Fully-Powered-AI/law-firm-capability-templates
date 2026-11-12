@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before the billing attorney opens a prebill, the billing coordinator has every awkward entry marked: rates that differ from the firm's rate table, possible duplicates, entries outside the client's billing guidelines, unclear narratives and expenses without support, each sent to the person who acts next.",
-  "directory": "https://fullypowered.ai/workflow templates/prebill-exception-review/",
+  "directory": "https://fullypowered.ai/workflows/prebill-exception-review/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

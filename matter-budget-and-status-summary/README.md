@@ -2,7 +2,7 @@
 
 The responsible partner sees one matter whole: scope, phases against their dates, the budget against fees to date and the projected total, a red, amber or green status with the rule behind it, risks and next actions with owners. Built from the time export and the matter plan, never a view on the merits.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-budget-and-status-summary/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/matter-budget-and-status-summary/)*
 
 ## The outcome
 
@@ -83,8 +83,8 @@ Testing in your environment means running it on two or three past matters whose 
 ## Related workflow templates
 
 - [Weekly open-matter check](../weekly-open-matter-check/)
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 

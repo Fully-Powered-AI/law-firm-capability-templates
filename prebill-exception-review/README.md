@@ -2,7 +2,7 @@
 
 Before the billing attorney opens a prebill, the billing coordinator has every awkward entry marked: rates that differ from the firm's rate table, possible duplicates, entries outside the client's billing guidelines, unclear narratives and expenses without support, each sent to the person who acts next.
 
-*Workflow template · Law firms · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/prebill-exception-review/)*
+*Workflow template · Law firms · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/prebill-exception-review/)*
 
 ## The outcome
 
@@ -83,7 +83,7 @@ Testing in your firm means running it on two or three past prebills whose proble
 
 - [Client billing summary](../client-billing-summary/)
 - [Matter budget and status summary](../matter-budget-and-status-summary/)
-- [Overdue-invoice follow-up preparation](https://fullypowered.ai/workflow templates/overdue-invoice-follow-up-preparation/)
+- [Overdue-invoice follow-up preparation](https://fullypowered.ai/workflows/overdue-invoice-follow-up-preparation/)
 
 ## Make it yours
 

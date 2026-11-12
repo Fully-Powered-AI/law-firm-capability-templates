@@ -2,7 +2,7 @@
 
 Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-opening-checklist-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/matter-opening-checklist-preparation/)*
 
 ## The outcome
 
@@ -79,8 +79,8 @@ Testing in your firm means preparing checklists for recently opened matters and 
 ## Related workflow templates
 
 - [Inquiry handoff](../inquiry-handoff/)
-- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
-- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
+- [Account handoff](https://fullypowered.ai/workflows/account-handoff/)
+- [Receivables exception review](https://fullypowered.ai/workflows/receivables-exception-review/)
 
 ## Make it yours
 

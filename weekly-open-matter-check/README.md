@@ -2,7 +2,7 @@
 
 Every Monday the operations manager sees every open matter: which tasks are overdue, which have no owner, and which matters could not be checked at all. The managing partner gets one summary, and each responsible attorney gets a note that is drafted and ready for the manager to send.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/weekly-open-matter-check/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/weekly-open-matter-check/)*
 
 ## The outcome
 
@@ -83,8 +83,8 @@ Testing in your environment means running it on past weeks your operations manag
 ## Related workflow templates
 
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
-- [Weekly receivables summary](https://fullypowered.ai/workflow templates/weekly-receivables-summary/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
+- [Weekly receivables summary](https://fullypowered.ai/workflows/weekly-receivables-summary/)
 
 ## Make it yours
 

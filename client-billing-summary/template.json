@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before an invoice goes out, the billing coordinator has a summary the client can read: fees by timekeeper, task and phase, expenses and write-downs, tied to the pre-bill. Every entry that breaks the client's billing guidelines reaches the responsible attorney as a decision, with the amount at stake.",
-  "directory": "https://fullypowered.ai/workflow templates/client-billing-summary/",
+  "directory": "https://fullypowered.ai/workflows/client-billing-summary/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

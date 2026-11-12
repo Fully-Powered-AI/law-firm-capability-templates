@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.",
-  "directory": "https://fullypowered.ai/workflow templates/matter-opening-checklist-preparation/",
+  "directory": "https://fullypowered.ai/workflows/matter-opening-checklist-preparation/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",

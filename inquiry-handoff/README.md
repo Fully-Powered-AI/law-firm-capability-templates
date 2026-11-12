@@ -2,7 +2,7 @@
 
 Every new inquiry reaches the firm’s conflict review and the responsible attorney as one complete packet on the day it arrives, with each missing item named and someone assigned to supply it.
 
-*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/inquiry-handoff/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/inquiry-handoff/)*
 
 ## The outcome
 
@@ -74,7 +74,7 @@ Testing in your firm means running it on recent inquiries, including one with an
 ## Related workflow templates
 
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
 
 ## Make it yours
 

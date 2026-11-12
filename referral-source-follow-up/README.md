@@ -2,7 +2,7 @@
 
 The day after a partner meets someone who sends the firm work, they have a follow-up draft and a list of every promise made at the table, by both sides. The draft uses only approved materials and nothing said in confidence; the partner checks it, chooses the next step and sends it.
 
-*Workflow template · Law firms · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/referral-source-follow-up/)*
+*Workflow template · Law firms · Sales · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/referral-source-follow-up/)*
 
 ## The outcome
 
@@ -76,8 +76,8 @@ Testing in your firm means running it on recent conversations whose follow-up a 
 ## Related workflow templates
 
 - [Inquiry handoff](../inquiry-handoff/)
-- [Cold outreach sequence drafting](https://fullypowered.ai/workflow templates/cold-outreach-sequence-drafting/)
-- [Referral programme design](https://fullypowered.ai/workflow templates/referral-programme-design/)
+- [Cold outreach sequence drafting](https://fullypowered.ai/workflows/cold-outreach-sequence-drafting/)
+- [Referral programme design](https://fullypowered.ai/workflows/referral-programme-design/)
 
 ## Make it yours
 

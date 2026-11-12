@@ -2,7 +2,7 @@
 
 Before an invoice goes out, the billing coordinator has a summary the client can read: fees by timekeeper, task and phase, expenses and write-downs, tied to the pre-bill. Every entry that breaks the client's billing guidelines reaches the responsible attorney as a decision, with the amount at stake.
 
-*Workflow template · Law firms · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/client-billing-summary/)*
+*Workflow template · Law firms · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/client-billing-summary/)*
 
 ## The outcome
 
@@ -74,9 +74,9 @@ Testing in your firm means running it on two or three past pre-bills whose clien
 
 ## Related workflow templates
 
-- [Overdue-invoice follow-up preparation](https://fullypowered.ai/workflow templates/overdue-invoice-follow-up-preparation/)
+- [Overdue-invoice follow-up preparation](https://fullypowered.ai/workflows/overdue-invoice-follow-up-preparation/)
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
-- [Weekly receivables summary](https://fullypowered.ai/workflow templates/weekly-receivables-summary/)
+- [Weekly receivables summary](https://fullypowered.ai/workflows/weekly-receivables-summary/)
 
 ## Make it yours
 
