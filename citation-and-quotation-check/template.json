@@ -1,0 +1,66 @@
+{
+  "id": "citation-and-quotation-check",
+  "name": "Citation and quotation check",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before a draft is filed or relied on, the associate or paralegal has one worksheet: every citation, quotation and record cite counted, then set against the sources supplied, and every good-law check left for the lawyer. No result calls anything confirmed; each says only what was compared.",
+  "directory": "https://fullypowered.ai/workflows/citation-and-quotation-check/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/government"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "outgoing-work-sign-off-log",
+    "copy-edit-with-a-change-list",
+    "court-order-deadline-notice-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal preparation: a named lawyer who decides and signs, results that say only what was compared with the text supplied, no authority named from memory, good-law checks left to the lawyer, and nothing in the draft changed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/bates-citation-verification/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Verified and unverified categories for each citation, including a page that cannot be reached, kept in view with a flag; quotations reproduced exactly with a source's own mistakes marked [sic]; no page reference ever made up; Bates prefixes and digits checked against the production's stamps; a closing tally; and a second hand check of a sample.",
+      "text_reused": false,
+      "notice": "notices/casemark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/claude-for-legal",
+      "commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+      "path": "litigation-legal/skills/privilege-log-review/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Listing and counting every citation before checking any, checking all of them, reporting how many were checked out of how many were found, saying \"could not check\", never \"confirmed\", whenever an item's source is missing, and testing whether a pinpoint backs every part of its sentence.",
+      "text_reused": false,
+      "notice": "notices/anthropics-claude-for-legal-LICENSE.txt"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "conflict-search-record",
+  "name": "Conflict search record",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before the responsible attorney decides on a new matter, the conflicts clerk has a draft search record: every name searched with its aliases and related entities, every possible match with its source matter and why it matched, the names still to search, and the limits of the search. It clears nothing.",
+  "directory": "https://fullypowered.ai/workflows/conflict-search-record/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts",
+    "functions/compliance-risk-and-privacy"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inquiry-handoff",
+    "matter-opening-checklist-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own published map of law-firm work, with no third-party text or method."
+    }
+  ]
+}

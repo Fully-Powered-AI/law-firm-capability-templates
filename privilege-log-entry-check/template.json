@@ -1,0 +1,44 @@
+{
+  "id": "privilege-log-entry-check",
+  "name": "Privilege log entry check",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before a draft privilege log goes to review counsel, the paralegal gets an entry-by-entry check against counsel’s approved format and role map, and a list of logged documents’ attachments with no entry. It checks metadata only: review counsel makes every privilege call and writes or approves every description.",
+  "directory": "https://fullypowered.ai/workflows/privilege-log-entry-check/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "court-order-deadline-notice-preparation",
+    "outgoing-work-sign-off-log",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI’s own published map of law-firm work, and its own rules for legal work prepared for a lawyer: counsel’s approved records as the only measure, metadata checked and never substance, and every open point written as a line for the named lawyer to confirm."
+    }
+  ]
+}

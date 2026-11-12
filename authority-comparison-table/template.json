@@ -1,0 +1,48 @@
+{
+  "id": "authority-comparison-table",
+  "name": "Authority comparison table",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "From the opinions, statutes and regulations counsel selected, and only those, the researching lawyer gets one side-by-side table: each authority's court, date, stated issue, operative words, posture and separate opinions, quoted with pinpoints, and a list of every quotation to check. The lawyer decides what applies.",
+  "directory": "https://fullypowered.ai/workflows/authority-comparison-table/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/new-business-lines"
+  ],
+  "related": [
+    "research-summary-brief",
+    "court-order-deadline-notice-preparation",
+    "citation-and-quotation-check",
+    "research-plan-for-counsel",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own published map of law-firm work: the illustrative entry on comparing the authorities counsel has selected."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "consultation-fact-record",
+  "name": "Consultation fact record",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "After a first consultation, the intake attorney gets a draft fact record: each statement marked by how the client knows it, each date by how exactly it was given, the outcome the client wants set apart, every document mentioned but not supplied, and questions to choose from. It names no legal issue.",
+  "directory": "https://fullypowered.ai/workflows/consultation-fact-record/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "inquiry-handoff",
+    "matter-opening-checklist-preparation",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal preparation: the firm's own notes and records as the only authority, every gap written as a question, and a named lawyer who verifies and decides."
+    },
+    {
+      "kind": "third-party",
+      "repository": "rohasnagpal/legal-ai-skills",
+      "commit": "ad5df1934e981f9aa1c2c163da02590d8ae0504c",
+      "path": "plugins/legal-ai-skills/skills/client-intake/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Reading the whole account once before structuring it, sorting each thing a client says by how the client came to know it, marking how precisely each date was given, naming each person only as the client described them, keeping the hoped-for result apart, listing papers spoken of but not handed over without assuming their contents, keeping both sides of any disagreement within the account, and stopping before any legal analysis.",
+      "text_reused": false,
+      "notice": "notices/rohasnagpal-legal-ai-skills-LICENSE.txt"
+    }
+  ]
+}

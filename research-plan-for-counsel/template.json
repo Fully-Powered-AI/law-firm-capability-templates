@@ -1,0 +1,54 @@
+{
+  "id": "research-plan-for-counsel",
+  "name": "Research plan for counsel",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before an associate or paralegal starts on a partner's research question, they hold a one-to-two-page plan: the question split into sub-questions, the stated facts against each, the firm's own notes to read first, where to search and with what terms, and the gaps. Leads, not authorities: nothing is named from memory.",
+  "directory": "https://fullypowered.ai/workflows/research-plan-for-counsel/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "research-summary-brief",
+    "outgoing-work-sign-off-log",
+    "court-order-deadline-notice-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The firm version of the work: a plan prepared for a named lawyer; the question split by fixed rules into sub-questions in counsel's words; stated facts quoted, located and set against sub-questions only by shared words; every mentioned but unsupplied document listed; practice notes matched from an exported index with fixed column headers and a stop on mismatch; search terms drawn only from words in the inputs; no authority named unless it appears in the research supplied, copied exactly with what its reference lacks; and a confirmation list the lawyer answers and signs."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/claude-for-legal",
+      "commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+      "path": "legal-clinic/skills/research-start/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "The clinic research starter's outline: narrow the issue, put the clinic's own vetted documents first, set out the kinds of material to search with starting queries, check research already done against that outline for what is missing, tag each citation with where it came from, and warn at the top that nothing in the output has been checked. The plan's heading phrase \"leads, not authorities\" is taken from that warning banner.",
+      "text_reused": true,
+      "notice": "notices/anthropics-claude-for-legal-LICENSE.txt"
+    }
+  ]
+}

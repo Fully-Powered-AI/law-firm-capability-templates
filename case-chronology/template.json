@@ -1,0 +1,55 @@
+{
+  "id": "case-chronology",
+  "name": "Case chronology from the matter documents",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "From the document set the handling attorney approved, the paralegal or associate prepares a draft chronology for that attorney: each event with its source and Bates number or page, document dates kept apart from event dates, conflicting accounts side by side, and the gaps. What matters is left to the attorney.",
+  "directory": "https://fullypowered.ai/workflows/case-chronology/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "court-order-deadline-notice-preparation",
+    "matter-opening-checklist-preparation",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI’s own rules for legal work prepared for a lawyer, and its published map of legal work, which keeps a document’s own date apart from the date of the event it records and leaves disputed facts unresolved."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/claude-for-legal",
+      "commit": "4a6c651889c97cc9140580363c73e0eb17379c2b",
+      "path": "litigation-legal/skills/chronology/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Putting the privilege-screening question to counsel before extraction and recording the answer, asking whether documents came from another party, one entry per event citing every document that records it, leaving disagreements between documents for counsel, a gaps list, and numbered rebuilds that list what changed.",
+      "text_reused": false,
+      "notice": "notices/anthropics-claude-for-legal-LICENSE.txt"
+    }
+  ]
+}

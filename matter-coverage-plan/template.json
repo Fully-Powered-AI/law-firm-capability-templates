@@ -1,0 +1,45 @@
+{
+  "id": "matter-coverage-plan",
+  "name": "Matter coverage plan for absences",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "When leave or a staffing change takes someone away from active matters, the practice manager gets a draft coverage plan: a proposed cover for each matter, the attorney-confirmed dates in the absence, the access each cover needs and every handoff that is blocked. The practice lead and responsible attorneys decide.",
+  "directory": "https://fullypowered.ai/workflows/matter-coverage-plan/",
+  "primary_function": "functions/operations-and-process-improvement",
+  "functions": [
+    "functions/operations-and-process-improvement",
+    "functions/people-and-hr"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "weekly-open-matter-check",
+    "matter-opening-checklist-preparation",
+    "departing-employee-knowledge-capture"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of law-firm work: the illustrative entry for planning cover of active matters when someone is away."
+    }
+  ]
+}

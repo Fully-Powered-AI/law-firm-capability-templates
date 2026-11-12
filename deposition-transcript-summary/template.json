@@ -1,0 +1,65 @@
+{
+  "id": "deposition-transcript-summary",
+  "name": "Deposition transcript summary",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before the next deposition, a motion or trial, the attorney has a draft page-line summary of the transcript, arranged by the topics they named: every point cited, every exhibit and objection logged, and every place the testimony differs flagged without a label. The attorney decides what it means.",
+  "directory": "https://fullypowered.ai/workflows/deposition-transcript-summary/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "court-order-deadline-notice-preparation",
+    "weekly-open-matter-check",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal preparation work: a draft headed for a named lawyer, quotation and location in place of characterisation, the organisation's own documents as the only comparison, and nothing sent or filed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/deposition-summary-page-line/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Arranging a deposition summary by subject with a page and line reference on every point; logging objections and whether an answer followed; listing exhibits with where each entered the record; pointing out testimony that shifts within the deposition or departs from documents and other depositions, citing both places; a list of gaps to follow up; working only from a transcript that still carries its page and line numbers, and checking for absent pages first; and answering later questions only with references.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "audit/export/by-slug/deposition-summary-page-line.json",
+      "licence": "Apache-2.0",
+      "contribution": "A longer description of the same method in the same repository: read for context. Every idea used here also appears in the file credited above.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

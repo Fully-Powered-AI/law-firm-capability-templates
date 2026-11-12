@@ -4,6 +4,30 @@
   "term": "industries/law-firms",
   "templates": [
     {
+      "id": "authority-comparison-table",
+      "name": "Authority comparison table",
+      "version": "0.1.0",
+      "summary": "From the opinions, statutes and regulations counsel selected, and only those, the researching lawyer gets one side-by-side table: each authority's court, date, stated issue, operative words, posture and separate opinions, quoted with pinpoints, and a list of every quotation to check. The lawyer decides what applies.",
+      "path": "authority-comparison-table/",
+      "directory": "https://fullypowered.ai/workflows/authority-comparison-table/"
+    },
+    {
+      "id": "case-chronology",
+      "name": "Case chronology from the matter documents",
+      "version": "0.1.0",
+      "summary": "From the document set the handling attorney approved, the paralegal or associate prepares a draft chronology for that attorney: each event with its source and Bates number or page, document dates kept apart from event dates, conflicting accounts side by side, and the gaps. What matters is left to the attorney.",
+      "path": "case-chronology/",
+      "directory": "https://fullypowered.ai/workflows/case-chronology/"
+    },
+    {
+      "id": "citation-and-quotation-check",
+      "name": "Citation and quotation check",
+      "version": "0.1.0",
+      "summary": "Before a draft is filed or relied on, the associate or paralegal has one worksheet: every citation, quotation and record cite counted, then set against the sources supplied, and every good-law check left for the lawyer. No result calls anything confirmed; each says only what was compared.",
+      "path": "citation-and-quotation-check/",
+      "directory": "https://fullypowered.ai/workflows/citation-and-quotation-check/"
+    },
+    {
       "id": "client-billing-summary",
       "name": "Client billing summary",
       "version": "0.1.0",
@@ -12,12 +36,36 @@
       "directory": "https://fullypowered.ai/workflows/client-billing-summary/"
     },
     {
+      "id": "conflict-search-record",
+      "name": "Conflict search record",
+      "version": "0.1.0",
+      "summary": "Before the responsible attorney decides on a new matter, the conflicts clerk has a draft search record: every name searched with its aliases and related entities, every possible match with its source matter and why it matched, the names still to search, and the limits of the search. It clears nothing.",
+      "path": "conflict-search-record/",
+      "directory": "https://fullypowered.ai/workflows/conflict-search-record/"
+    },
+    {
+      "id": "consultation-fact-record",
+      "name": "Consultation fact record",
+      "version": "0.1.0",
+      "summary": "After a first consultation, the intake attorney gets a draft fact record: each statement marked by how the client knows it, each date by how exactly it was given, the outcome the client wants set apart, every document mentioned but not supplied, and questions to choose from. It names no legal issue.",
+      "path": "consultation-fact-record/",
+      "directory": "https://fullypowered.ai/workflows/consultation-fact-record/"
+    },
+    {
       "id": "court-order-deadline-notice-preparation",
       "name": "Court-order deadline notice preparation",
       "version": "0.1.0",
       "summary": "When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.",
       "path": "court-order-deadline-notice-preparation/",
       "directory": "https://fullypowered.ai/workflows/court-order-deadline-notice-preparation/"
+    },
+    {
+      "id": "deposition-transcript-summary",
+      "name": "Deposition transcript summary",
+      "version": "0.1.0",
+      "summary": "Before the next deposition, a motion or trial, the attorney has a draft page-line summary of the transcript, arranged by the topics they named: every point cited, every exhibit and objection logged, and every place the testimony differs flagged without a label. The attorney decides what it means.",
+      "path": "deposition-transcript-summary/",
+      "directory": "https://fullypowered.ai/workflows/deposition-transcript-summary/"
     },
     {
       "id": "inquiry-handoff",
@@ -44,6 +92,14 @@
       "directory": "https://fullypowered.ai/workflows/matter-closing-checklist-preparation/"
     },
     {
+      "id": "matter-coverage-plan",
+      "name": "Matter coverage plan for absences",
+      "version": "0.1.0",
+      "summary": "When leave or a staffing change takes someone away from active matters, the practice manager gets a draft coverage plan: a proposed cover for each matter, the attorney-confirmed dates in the absence, the access each cover needs and every handoff that is blocked. The practice lead and responsible attorneys decide.",
+      "path": "matter-coverage-plan/",
+      "directory": "https://fullypowered.ai/workflows/matter-coverage-plan/"
+    },
+    {
       "id": "matter-opening-checklist-preparation",
       "name": "Matter-opening checklist preparation",
       "version": "0.1.0",
@@ -68,12 +124,28 @@
       "directory": "https://fullypowered.ai/workflows/prebill-exception-review/"
     },
     {
+      "id": "privilege-log-entry-check",
+      "name": "Privilege log entry check",
+      "version": "0.1.0",
+      "summary": "Before a draft privilege log goes to review counsel, the paralegal gets an entry-by-entry check against counsel’s approved format and role map, and a list of logged documents’ attachments with no entry. It checks metadata only: review counsel makes every privilege call and writes or approves every description.",
+      "path": "privilege-log-entry-check/",
+      "directory": "https://fullypowered.ai/workflows/privilege-log-entry-check/"
+    },
+    {
       "id": "referral-source-follow-up",
       "name": "Referral source follow-up",
       "version": "0.1.0",
       "summary": "The day after a partner meets someone who sends the firm work, they have a follow-up draft and a list of every promise made at the table, by both sides. The draft uses only approved materials and nothing said in confidence; the partner checks it, chooses the next step and sends it.",
       "path": "referral-source-follow-up/",
       "directory": "https://fullypowered.ai/workflows/referral-source-follow-up/"
+    },
+    {
+      "id": "research-plan-for-counsel",
+      "name": "Research plan for counsel",
+      "version": "0.1.0",
+      "summary": "Before an associate or paralegal starts on a partner's research question, they hold a one-to-two-page plan: the question split into sub-questions, the stated facts against each, the firm's own notes to read first, where to search and with what terms, and the gaps. Leads, not authorities: nothing is named from memory.",
+      "path": "research-plan-for-counsel/",
+      "directory": "https://fullypowered.ai/workflows/research-plan-for-counsel/"
     },
     {
       "id": "weekly-open-matter-check",
