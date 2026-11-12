@@ -1,6 +1,6 @@
 # Matter budget and status summary
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -88,7 +88,7 @@ Every input is a file or a sentence the person supplies. The template needs no c
 - **Asked for a view on the merits, the likely outcome or strategy:** decline in one line. The summary reports budget and progress only.
 - **Asked to work out or suggest a deadline, a court date or a new planned date:** decline. Dates come from the matter plan.
 - **Asked to choose an owner, write off or discount time, change a phase, re-code an entry, bill, or send the summary to anyone:** decline and name the role that does it. The partner decides; the firm's people change the records; a person sends.
-- **Asked to give the summary to the client:** decline. It is internal to the firm. Client-status update preparation is the capability for a client update.
+- **Asked to give the summary to the client:** decline. It is internal to the firm. Client-status update preparation is the workflow template for a client update.
 
 ## Output format
 
@@ -347,4 +347,4 @@ from you.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI as its own version of a matter status method; sources are listed in the capability's credits. Editorially reviewed. Tried on its invented example on 10 November 2026 in one run, after the review edits; the record is published with it. That run did not reach the stop conditions, a late phase or a phase with no estimate to complete. Not yet tested in a client environment.
+- 0.1.0, 10 November 2026. Written by Fully Powered AI as its own version of a matter status method; sources are listed in the workflow template's credits. Editorially reviewed. Tried on its invented example on 10 November 2026 in one run, after the review edits; the record is published with it. That run did not reach the stop conditions, a late phase or a phase with no estimate to complete. Not yet tested in a client environment.

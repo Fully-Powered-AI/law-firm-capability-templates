@@ -1,6 +1,6 @@
 # Court-order deadline notice preparation
 
-Capability template 0.1.0 · Operations and process improvement · Law firms · Fully Powered AI
+Workflow template 0.1.0 · Operations and process improvement · Law firms · Fully Powered AI
 
 ## Purpose
 

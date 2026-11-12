@@ -2,13 +2,13 @@
 
 Every accepted matter goes into setup and billing with one checklist: the fields each system needs, the terms that drive the first invoice, the documents on file and an owner for every open item.
 
-*Capability template · Law firms · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-opening-checklist-preparation/)*
 
 ## The outcome
 
 In a fully powered firm, the first invoice on every new matter is right. The billing arrangement in the system matches the engagement letter, and the client’s e-billing rules are known before anyone records an hour. That is 10X what your setup team can do with the hours it has.
 
-This capability prepares the matter-opening checklist from the acceptance record, the engagement letter and the intake packet. It fills in each system’s fields, pulls out the terms that drive billing, lists the documents on file and names an owner for everything still missing. A person opens the matter in the firm’s systems, in minutes instead of a week of follow-up emails. The checklist enters nothing, sends nothing and interprets nothing in the engagement letter.
+This workflow template prepares the matter-opening checklist from the acceptance record, the engagement letter and the intake packet. It fills in each system’s fields, pulls out the terms that drive billing, lists the documents on file and names an owner for everything still missing. A person opens the matter in the firm’s systems, in minutes instead of a week of follow-up emails. The checklist enters nothing, sends nothing and interprets nothing in the engagement letter.
 
 ## Who starts the work, and when
 
@@ -23,7 +23,7 @@ The firm administrator starts it once the responsible attorney has accepted the 
 
 ## What comes out
 
-A checklist in four parts: matter fields ready to enter, billing terms with their source clause, documents on file, and open items with an owner and the step each blocks. The example continues [Inquiry handoff](https://fullypowered.ai/capabilities/inquiry-handoff/) at the same invented 40-person litigation and employment firm.
+A checklist in four parts: matter fields ready to enter, billing terms with their source clause, documents on file, and open items with an owner and the step each blocks. The example continues [Inquiry handoff](https://fullypowered.ai/workflows/inquiry-handoff/) at the same invented 40-person litigation and employment firm.
 
 Good means the billing coordinator sets up billing without rereading the engagement letter, and sees the two answers that stand between Matter 26-0412 and a correct first invoice.
 
@@ -46,13 +46,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 In professional services and engineering firms this is project or account opening. A signed statement of work starts it, milestone terms replace a retainer, and a project manager or finance lead owns it.
 
-We map the path from acceptance to first invoice with the firm administrator, the billing coordinator and the responsible attorney, then land each field on the role that owns it. This capability template is written for ChatGPT, Claude, Copilot and Gemini, and your firm keeps control of how the work gets done.
+We map the path from acceptance to first invoice with the firm administrator, the billing coordinator and the responsible attorney, then land each field on the role that owns it. This workflow template is written for ChatGPT, Claude, Copilot and Gemini, and your firm keeps control of how the work gets done.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your firm means preparing checklists for recently opened matters and comparing them with what billing needed, including a fixed-fee matter and one with no agreed letter, which should stop. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
+Testing in your firm means preparing checklists for recently opened matters and comparing them with what billing needed, including a fixed-fee matter and one with no agreed letter, which should stop. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -63,10 +63,10 @@ Testing in your firm means preparing checklists for recently opened matters and 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -76,12 +76,12 @@ Testing in your firm means preparing checklists for recently opened matters and 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Inquiry handoff](../inquiry-handoff/)
-- [Account handoff](https://fullypowered.ai/capabilities/account-handoff/)
-- [Receivables exception review](https://fullypowered.ai/capabilities/receivables-exception-review/)
+- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
+- [Receivables exception review](https://fullypowered.ai/workflow templates/receivables-exception-review/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

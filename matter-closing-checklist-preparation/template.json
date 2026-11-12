@@ -1,10 +1,10 @@
 {
   "id": "matter-closing-checklist-preparation",
   "name": "Matter closing checklist preparation",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When the handling lawyer flags a matter for closure, the firm's closing checklist is filled from the matter record: final billing as recorded, open tasks, unreturned items and the handoffs billing and records must accept.",
-  "directory": "https://fullypowered.ai/capabilities/matter-closing-checklist-preparation/",
+  "directory": "https://fullypowered.ai/workflow templates/matter-closing-checklist-preparation/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",
@@ -40,7 +40,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's own published map of closing a matter file, written for this capability template."
+      "title": "Fully Powered AI's own published map of closing a matter file, written for this workflow template."
     }
   ]
 }

@@ -5,7 +5,7 @@
 - **Date:** 2026-11-10
 - **Template version:** 0.1.0
 
-This is a record of one run of the capability template on its own invented example. The firm, the client, the other party, the vendors, the entries, the guidelines and the figures are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any firm's environment.
+This is a record of one run of the workflow template on its own invented example. The firm, the client, the other party, the vendors, the entries, the guidelines and the figures are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any firm's environment.
 
 This is the fourth run on the same example, all on 10 November 2026. The first three showed where the instructions left room to guess; the instructions and a few lines of the example's inputs were revised after them, and the run recorded here was made on the revised instructions. What the earlier runs found, and what was changed, is at the end.
 

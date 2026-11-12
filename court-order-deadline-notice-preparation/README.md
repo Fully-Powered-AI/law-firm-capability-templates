@@ -2,13 +2,13 @@
 
 When a court order arrives, the legal assistant has a draft notice ready for the attorney: every directive in the court’s own words, every date copied from the order or proposed under the firm’s own written rule file, and a list for the attorney to confirm. Nothing is calendared or sent until the attorney confirms.
 
-*Capability template · Law firms · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/court-order-deadline-notice-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/court-order-deadline-notice-preparation/)*
 
 ## The outcome
 
 The attorney opens one page and sees everything the order asks of anyone: each directive quoted with its page, each date, each hearing set or vacated, each amount. The careful first reading arrives prepared, footnotes included, and the attorney’s time goes to the judgment only an attorney can make.
 
-This is preparation, and it stays preparation. It does not give legal advice and it does not decide when anything is due. A date the order states is copied. A date that has to be counted is a proposed date, counted only by the firm’s own written rule file, with the working shown, on a list the attorney answers line by line. Where the rule file does not cover a count, the capability stops on that line and says so. No date is final until the attorney confirms it.
+This is preparation, and it stays preparation. It does not give legal advice and it does not decide when anything is due. A date the order states is copied. A date that has to be counted is a proposed date, counted only by the firm’s own written rule file, with the working shown, on a list the attorney answers line by line. Where the rule file does not cover a count, the workflow template stops on that line and says so. No date is final until the attorney confirms it.
 
 ## Who starts the work, and when
 
@@ -21,7 +21,7 @@ A legal assistant or docketing clerk starts it when a signed, entered order arri
 - The firm’s own written deadline rule file, dated and approved by an attorney: which kinds of count the firm lets staff propose, and exactly how each is counted.
 - The court-closure list the firm’s docketing keeps for that court, with the period it covers.
 
-The capability template ships no court rules and uses none from memory. A firm without a rule file still gets the directives, the copied dates, the hearings and the amounts; every counted date goes to the attorney.
+The workflow template ships no court rules and uses none from memory. A firm without a rule file still gets the directives, the copied dates, the hearings and the amounts; every counted date goes to the attorney.
 
 ## What comes out
 
@@ -44,7 +44,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - [Law firms](https://fullypowered.ai/industries/law-firms/), in litigation groups where orders arrive daily and a missed line in a footnote is expensive.
 - [Established businesses](https://fullypowered.ai/situations/established-businesses/), where one long-serving assistant knows how the firm counts and nobody has written it down.
 
-It follows [matter-opening checklist preparation](https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/), which records who is on the matter. If the firm’s way of counting lives in one person’s head, [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/) is how to get it written before this capability relies on it.
+It follows [matter-opening checklist preparation](https://fullypowered.ai/workflows/matter-opening-checklist-preparation/), which records who is on the matter. If the firm’s way of counting lives in one person’s head, [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/) is how to get it written before this workflow template relies on it.
 
 ## What has to change for your company
 
@@ -54,9 +54,9 @@ We sit with the assistant who writes the notices and the attorney who owns the p
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template from its own built example for an invented firm. It was editorially reviewed on 9 November 2026. It was tried on its invented example in Claude on 9 November 2026, and the record of that run, which replaced an earlier one from the same day, is published with the template. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template from its own built example for an invented firm. It was editorially reviewed on 9 November 2026. It was tried on its invented example in Claude on 9 November 2026, and the record of that run, which replaced an earlier one from the same day, is published with the template. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your firm means running it on past orders whose dates your attorneys already settled, and comparing: every directive found, every proposed date equal to the attorney’s, every uncovered count left alone, nothing sent. Include an order with a directive in a footnote, one counted from service and one with a page missing. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your firm means running it on past orders whose dates your attorneys already settled, and comparing: every directive found, every proposed date equal to the attorney’s, every uncovered count left alone, nothing sent. Include an order with a directive in a footnote, one counted from service and one with a page missing. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that set, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -67,11 +67,11 @@ Testing in your firm means running it on past orders whose dates your attorneys 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -81,12 +81,12 @@ Testing in your firm means running it on past orders whose dates your attorneys 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
-- [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

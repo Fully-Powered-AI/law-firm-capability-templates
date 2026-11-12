@@ -1,6 +1,6 @@
 # Matter closing checklist preparation: an invented example
 
-*Illustrative example with invented data.* The firm, the clients, the people, the matters, the dates and every amount below are invented. The firm is an invented litigation practice with a billing coordinator and a records clerk, and the matter is a supply dispute between Client C and Party D. First come the inputs the operations assistant supplied, in full, then the checklist the capability returns. The unreturned-items list and the firm's checklist are supplied for this one matter, so they carry no matter number.
+*Illustrative example with invented data.* The firm, the clients, the people, the matters, the dates and every amount below are invented. The firm is an invented litigation practice with a billing coordinator and a records clerk, and the matter is a supply dispute between Client C and Party D. First come the inputs the operations assistant supplied, in full, then the checklist the workflow template returns. The unreturned-items list and the firm's checklist are supplied for this one matter, so they carry no matter number.
 
 ## The inputs
 

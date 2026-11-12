@@ -1,6 +1,6 @@
 # Outgoing work sign-off log: an invented example
 
-*Illustrative example with invented data.* The firm, its people, its clients, its matters and every record and message below are invented. People are shown by role: three attorneys (Attorney A, B and C), two associates, two paralegals and a billing coordinator. The firm's operations manager updates the sign-off log on the morning of Thursday 12 November 2026. The inputs come first, in full, then the update the capability is meant to return.
+*Illustrative example with invented data.* The firm, its people, its clients, its matters and every record and message below are invented. People are shown by role: three attorneys (Attorney A, B and C), two associates, two paralegals and a billing coordinator. The firm's operations manager updates the sign-off log on the morning of Thursday 12 November 2026. The inputs come first, in full, then the update the workflow template is meant to return.
 
 ## What the operations manager supplied
 
@@ -142,4 +142,4 @@ Draft for the Operations manager to check and save. The log has not been saved, 
 
 How the figures were reached. Working days left count Monday to Friday after Thursday 12 November: Friday 13 is 1 and Monday 16 is 2, so S-102 and S-110 (due Friday) and S-103 (due Monday) fall inside the two-day window, while S-109, due Tuesday 17 with 3 working days left, does not. S-107 is approved and not yet due, so it carries no flag. Paralegal 2's message about S-104 reports Attorney B's view second-hand, so S-104 stays waiting until Attorney B says so in their own message. The counts add up: 5 waiting, 2 returned, 1 approved and 2 sent make the 10 items in the file.
 
-The capability never saw any of the drafts. Everything above comes from the log, the eight messages and the settings.
+The workflow template never saw any of the drafts. Everything above comes from the log, the eight messages and the settings.

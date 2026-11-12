@@ -1,6 +1,6 @@
 # Referral source follow-up: an invented example
 
-*Illustrative example with invented data.* The firms, the people, the clients, the dates and the materials below are all invented, and the names are made up for this example. Firm A is an invented 35-lawyer business law firm. Elena is a corporate partner there and Sam is an associate on her team. Marcus is a partner at Accounting Firm B, an invented accounting practice that has sent Firm A work before. First come the inputs Elena supplied, in full, then the follow-up the capability returned.
+*Illustrative example with invented data.* The firms, the people, the clients, the dates and the materials below are all invented, and the names are made up for this example. Firm A is an invented 35-lawyer business law firm. Elena is a corporate partner there and Sam is an associate on her team. Marcus is a partner at Accounting Firm B, an invented accounting practice that has sent Firm A work before. First come the inputs Elena supplied, in full, then the follow-up the workflow template returned.
 
 ## The inputs
 
@@ -150,5 +150,5 @@ Prepared for Elena's review. Nothing has been sent, recorded or promised on the 
 
 - The checklist was the only material that could go: the one-pager's approval had ended, and the clients' briefing was approved for another audience and was never promised.
 - Three of Elena's own promises wait for her, each with its reason, instead of being quietly dropped or quietly kept.
-- The tax question, the merger, the client's sale, the daughter and the banker's name stay out of the message and the log line. So does Marcus's remark that four of his clients may sell: it is about his clients, and the capability holds back what a contact says about their own clients' plans even when no client is named.
+- The tax question, the merger, the client's sale, the daughter and the banker's name stay out of the message and the log line. So does Marcus's remark that four of his clients may sell: it is about his clients, and the workflow template holds back what a contact says about their own clients' plans even when no client is named.
 - The "maybe" about a spring session is offered as an option, not written in as a commitment.

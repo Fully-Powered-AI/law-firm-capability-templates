@@ -1,6 +1,6 @@
 # Referral source follow-up
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it within a day or two of a lunch, call, meeting or event conversation with 
 
 Do not use it:
 
-- for a new inquiry that describes a matter and asks the firm to act. That goes through the firm's intake first (Inquiry handoff prepares it); this capability then drafts only the courtesy follow-up;
+- for a new inquiry that describes a matter and asks the firm to act. That goes through the firm's intake first (Inquiry handoff prepares it); this workflow template then drafts only the courtesy follow-up;
 - for a first approach to someone the partner has not spoken to. That is cold outreach, prepared by Cold outreach sequence drafting;
 - to design how the firm asks for and rewards referrals. That is Referral programme design;
 - to answer a question about the contact's or their client's legal position, to quote fees or to describe the terms of an engagement. Those are the partner's, and are recorded for them, never drafted;

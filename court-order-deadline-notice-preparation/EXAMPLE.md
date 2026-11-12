@@ -2,7 +2,7 @@
 
 *Illustrative example with invented data.* Tallis Marrow LLP, its people, its client, the Superior Court of Eastmere, the order, the rule file and the court-closure list below are all invented. The rule file is one invented firm’s way of counting for an invented court. It is not any real court’s rule and must not be used for a real deadline.
 
-The legal assistant’s four inputs come first, in full, then what the capability prepares. The request carries the matter name and case number, the people on the matter and, as the day it was sent, today’s date.
+The legal assistant’s four inputs come first, in full, then what the workflow template prepares. The request carries the matter name and case number, the people on the matter and, as the day it was sent, today’s date.
 
 ## Input 1: the request
 
@@ -148,7 +148,7 @@ These are the court's closures, not the firm's office holidays.
 2027-12-24  Friday     Christmas Day (observed)
 ```
 
-## What the capability prepares
+## What the workflow template prepares
 
 A short note to the legal assistant, then the draft.
 
@@ -262,6 +262,6 @@ Confirmed by: ____________  Date: ________
 Until this line is signed, this is a draft and no date in it is final.
 ```
 
-The meet and confer is the line to notice. Taken alone, "within 14 days of this order" is wording rule R-1 lists. It gets no proposed date because the court put it in one sentence with a count in court days before a conference, and the firm's rule file sends such a sentence to the attorney whole. The capability stops there and says why.
+The meet and confer is the line to notice. Taken alone, "within 14 days of this order" is wording rule R-1 lists. It gets no proposed date because the court put it in one sentence with a count in court days before a conference, and the firm's rule file sends such a sentence to the attorney whole. The workflow template stops there and says why.
 
 Marcus Thibault confirms or corrects each line and supplies the dates for B, C and F. Only then does Dalia Renner circulate the notice, and only then does Petra Lindahl take the 10 December conference off the calendar and add the confirmed dates.

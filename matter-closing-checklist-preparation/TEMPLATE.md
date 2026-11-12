@@ -1,6 +1,6 @@
 # Matter closing checklist preparation
 
-Capability template 0.1.0. Written by Fully Powered AI.
+Workflow template 0.1.0. Written by Fully Powered AI.
 
 ## Purpose
 

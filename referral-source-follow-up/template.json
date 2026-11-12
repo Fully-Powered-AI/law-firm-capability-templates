@@ -1,10 +1,10 @@
 {
   "id": "referral-source-follow-up",
   "name": "Referral source follow-up",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The day after a partner meets someone who sends the firm work, they have a follow-up draft and a list of every promise made at the table, by both sides. The draft uses only approved materials and nothing said in confidence; the partner checks it, chooses the next step and sends it.",
-  "directory": "https://fullypowered.ai/capabilities/referral-source-follow-up/",
+  "directory": "https://fullypowered.ai/workflow templates/referral-source-follow-up/",
   "primary_function": "functions/sales",
   "functions": [
     "functions/sales"

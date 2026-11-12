@@ -2,7 +2,7 @@
 
 The responsible partner sees one matter whole: scope, phases against their dates, the budget against fees to date and the projected total, a red, amber or green status with the rule behind it, risks and next actions with owners. Built from the time export and the matter plan, never a view on the merits.
 
-*Capability template · Law firms · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/matter-budget-and-status-summary/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-budget-and-status-summary/)*
 
 ## The outcome
 
@@ -53,9 +53,9 @@ Set your own thresholds for amber and red, the grace a late phase gets, and the 
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, drawing on two openly licensed matter-reporting methods credited with it. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in one run; the record is published with it. That run did not reach the stop conditions, a late phase or a phase with no estimate to complete. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, drawing on two openly licensed matter-reporting methods credited with it. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in one run; the record is published with it. That run did not reach the stop conditions, a late phase or a phase with no estimate to complete. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past matters whose budgets your partners remember well, plus hard cases written in advance: phase budgets that do not add up, a phase with no estimate to complete, time on another matter or after the as-of date, an export with a renamed column, a note that comments on the merits. The billing coordinator checks every figure against the billing system before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past matters whose budgets your partners remember well, plus hard cases written in advance: phase budgets that do not add up, a phase with no estimate to complete, time on another matter or after the as-of date, an export with a renamed column, a note that comments on the merits. The billing coordinator checks every figure against the billing system before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on two or three past matters whose 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,12 +80,12 @@ Testing in your environment means running it on two or three past matters whose 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Weekly open-matter check](../weekly-open-matter-check/)
-- [Client-status update preparation](https://fullypowered.ai/capabilities/client-status-update-preparation/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/)
+- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

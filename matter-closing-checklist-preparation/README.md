@@ -2,7 +2,7 @@
 
 When the handling lawyer flags a matter for closure, the firm's closing checklist is filled from the matter record: final billing as recorded, open tasks, unreturned items and the handoffs billing and records must accept.
 
-*Capability template · Law firms · Operations and process improvement · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/matter-closing-checklist-preparation/)*
+*Workflow template · Law firms · Operations and process improvement · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/matter-closing-checklist-preparation/)*
 
 ## The outcome
 
@@ -22,7 +22,7 @@ The responsible attorney reads the outcome line and decides whether the matter c
 
 - **The closure flag.** The matter number, who flagged it and the date.
 - **The attorney's outcome note.** How the matter ended, in the attorney's words, with the final order or agreement named, and any related proceeding, running obligation or hold instruction.
-- **The matter record, tasks and billing exports** from your practice system, with the default column headers listed in the template. If a header does not match, the capability stops and asks.
+- **The matter record, tasks and billing exports** from your practice system, with the default column headers listed in the template. If a header does not match, the workflow template stops and asks.
 - **The unreturned-items list** kept by records.
 - **The firm's own closing checklist,** with who owns each item and which items are handoffs.
 - **The previous checklist (optional),** on a rerun, so the new version can show what changed.
@@ -35,7 +35,7 @@ One checklist in a fixed order: the matter, the outcome as the attorney stated i
 
 Good means the records clerk can accept or return the handoff without phoning anyone, and the attorney sees in one minute what stands between the matter and closure.
 
-It is a different piece of work from [Matter-opening checklist preparation](https://fullypowered.ai/capabilities/matter-opening-checklist-preparation/), which sets a matter up, and from [Weekly open-matter check](https://fullypowered.ai/capabilities/weekly-open-matter-check/), which watches every open matter; this one prepares the end of a single matter. Billing figures that feed it can come from [Client billing summary](https://fullypowered.ai/capabilities/client-billing-summary/).
+It is a different piece of work from [Matter-opening checklist preparation](https://fullypowered.ai/workflows/matter-opening-checklist-preparation/), which sets a matter up, and from [Weekly open-matter check](https://fullypowered.ai/workflows/weekly-open-matter-check/), which watches every open matter; this one prepares the end of a single matter. Billing figures that feed it can come from [Client billing summary](https://fullypowered.ai/workflows/client-billing-summary/).
 
 See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
@@ -59,9 +59,9 @@ In professional services and engineering firms the same page serves engagement o
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in three runs: the first found defects and the instructions, output format and example were revised; after an independent review the instructions were revised again in small ways. The record of the third run, made by the model that made the revisions, is published with it. The trial exercised one of the nine acceptance tests. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in three runs: the first found defects and the instructions, output format and example were revised; after an independent review the instructions were revised again in small ways. The record of the third run, made by the model that made the revisions, is published with it. The trial exercised one of the nine acceptance tests. It has not been tested in a client environment or as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your firm means preparing checklists for a few recently closed matters and comparing them with what billing and records found, including a matter with an unpaid invoice, one with client property still out, and one flagged with no attorney outcome, which should stop. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
+Testing in your firm means preparing checklists for a few recently closed matters and comparing them with what billing and records found, including a matter with an unpaid invoice, one with client property still out, and one flagged with no attorney outcome, which should stop. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -72,11 +72,11 @@ Testing in your firm means preparing checklists for a few recently closed matter
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -86,7 +86,7 @@ Testing in your firm means preparing checklists for a few recently closed matter
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Matter-opening checklist preparation](../matter-opening-checklist-preparation/)
 - [Weekly open-matter check](../weekly-open-matter-check/)
@@ -94,4 +94,4 @@ Testing in your firm means preparing checklists for a few recently closed matter
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

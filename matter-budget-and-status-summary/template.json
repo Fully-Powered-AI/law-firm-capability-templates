@@ -1,10 +1,10 @@
 {
   "id": "matter-budget-and-status-summary",
   "name": "Matter budget and status summary",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The responsible partner sees one matter whole: scope, phases against their dates, the budget against fees to date and the projected total, a red, amber or green status with the rule behind it, risks and next actions with owners. Built from the time export and the matter plan, never a view on the merits.",
-  "directory": "https://fullypowered.ai/capabilities/matter-budget-and-status-summary/",
+  "directory": "https://fullypowered.ai/workflow templates/matter-budget-and-status-summary/",
   "primary_function": "functions/operations-and-process-improvement",
   "functions": [
     "functions/operations-and-process-improvement",
