@@ -1,0 +1,54 @@
+{
+  "id": "filing-package-check",
+  "name": "Filing package check",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before a filing goes to the attorney for signature, the paralegal gets every item on the firm’s own checklist for that court and judge marked pass or open: caption against the docket, length and format, certificates, exhibits, signature blocks and service. The attorney decides and signs.",
+  "directory": "https://fullypowered.ai/workflows/filing-package-check/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "outgoing-work-sign-off-log",
+    "court-order-deadline-notice-preparation",
+    "citation-and-quotation-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal work prepared for a lawyer: the firm's attorney-approved checklist as the only measure, findings quoted and located rather than judged, no date counted, nothing written for use, and every open point a line for the named attorney to confirm."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/court-formatting/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Gathering the court, case number, kind of document and the judge's own requirements first; the judge's and court's requirements ranked above general practice; every caption element held against the docket with no shortened party name; a closing pass over length, certificates, exhibits and the signature block; and asking rather than guessing when a requirement is unclear.",
+      "text_reused": false,
+      "notice": "notices/casemark-skills-LICENSE.txt"
+    }
+  ]
+}

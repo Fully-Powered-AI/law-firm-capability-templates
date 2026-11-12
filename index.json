@@ -36,6 +36,14 @@
       "directory": "https://fullypowered.ai/workflows/client-billing-summary/"
     },
     {
+      "id": "closed-file-retention-review",
+      "name": "Closed-file retention review",
+      "version": "0.1.0",
+      "summary": "When closed matter files are ready for records review, the records officer has a draft list for supervising counsel in four groups: files whose period has run under the firm's own schedule, files under a hold, client originals not yet returned, and files that cannot be assessed. Nothing is destroyed or moved.",
+      "path": "closed-file-retention-review/",
+      "directory": "https://fullypowered.ai/workflows/closed-file-retention-review/"
+    },
+    {
       "id": "conflict-search-record",
       "name": "Conflict search record",
       "version": "0.1.0",
@@ -66,6 +74,30 @@
       "summary": "Before the next deposition, a motion or trial, the attorney has a draft page-line summary of the transcript, arranged by the topics they named: every point cited, every exhibit and objection logged, and every place the testimony differs flagged without a label. The attorney decides what it means.",
       "path": "deposition-transcript-summary/",
       "directory": "https://fullypowered.ai/workflows/deposition-transcript-summary/"
+    },
+    {
+      "id": "discovery-commitments-register",
+      "name": "Discovery requests and commitments register",
+      "version": "0.1.0",
+      "summary": "Through discovery, the litigation paralegal keeps one register for the handling attorney: each request and its response in the exact words served, the Bates ranges produced against it, every supplement promised in correspondence with its date as written, and the promises now overdue. The attorney decides what it means.",
+      "path": "discovery-commitments-register/",
+      "directory": "https://fullypowered.ai/workflows/discovery-commitments-register/"
+    },
+    {
+      "id": "filing-package-check",
+      "name": "Filing package check",
+      "version": "0.1.0",
+      "summary": "Before a filing goes to the attorney for signature, the paralegal gets every item on the firm’s own checklist for that court and judge marked pass or open: caption against the docket, length and format, certificates, exhibits, signature blocks and service. The attorney decides and signs.",
+      "path": "filing-package-check/",
+      "directory": "https://fullypowered.ai/workflows/filing-package-check/"
+    },
+    {
+      "id": "hearing-preparation-pack",
+      "name": "Hearing preparation pack",
+      "version": "0.1.0",
+      "summary": "Before a set hearing, the arguing attorney has one draft pack: the hearing as the notice states it, the docket history, each order's directives quoted, each witness's prior statements with page cites, exhibit and checklist status as the firm records them, and an open-items list. The attorney decides every argument.",
+      "path": "hearing-preparation-pack/",
+      "directory": "https://fullypowered.ai/workflows/hearing-preparation-pack/"
     },
     {
       "id": "inquiry-handoff",
@@ -130,6 +162,14 @@
       "summary": "Before a draft privilege log goes to review counsel, the paralegal gets an entry-by-entry check against counsel’s approved format and role map, and a list of logged documents’ attachments with no entry. It checks metadata only: review counsel makes every privilege call and writes or approves every description.",
       "path": "privilege-log-entry-check/",
       "directory": "https://fullypowered.ai/workflows/privilege-log-entry-check/"
+    },
+    {
+      "id": "production-document-index",
+      "name": "Document production index and summaries",
+      "version": "0.1.0",
+      "summary": "From a production review counsel has cleared, the paralegal prepares a draft for that counsel: an index of every document by Bates range, a short summary of each, every statement cited to its Bates page, missing documents and differing passages listed, and anything matching counsel's screen list held by number only.",
+      "path": "production-document-index/",
+      "directory": "https://fullypowered.ai/workflows/production-document-index/"
     },
     {
       "id": "referral-source-follow-up",

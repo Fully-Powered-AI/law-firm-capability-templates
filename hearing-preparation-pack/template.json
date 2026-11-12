@@ -1,0 +1,55 @@
+{
+  "id": "hearing-preparation-pack",
+  "name": "Hearing preparation pack",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before a set hearing, the arguing attorney has one draft pack: the hearing as the notice states it, the docket history, each order's directives quoted, each witness's prior statements with page cites, exhibit and checklist status as the firm records them, and an open-items list. The attorney decides every argument.",
+  "directory": "https://fullypowered.ai/workflows/hearing-preparation-pack/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/real-estate"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "deposition-transcript-summary",
+    "case-chronology",
+    "court-order-deadline-notice-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal preparation work: a draft addressed to a named lawyer, quotation and location instead of characterisation, the firm's own records and rule file as the only sources, no date counted from memory, and nothing sent, filed or calendared."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/hearing-prep/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "The shape of a hearing pack: the hearing's particulars first, then how the case reached the hearing and the earlier rulings that touch it, each witness's earlier statements with page references, an exhibit inventory showing pre-marking and agreement between the parties, and a closing checklist; a source for every fact; and pointing out what is absent.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

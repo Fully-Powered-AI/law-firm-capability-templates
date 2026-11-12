@@ -1,0 +1,66 @@
+{
+  "id": "discovery-commitments-register",
+  "name": "Discovery requests and commitments register",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Through discovery, the litigation paralegal keeps one register for the handling attorney: each request and its response in the exact words served, the Bates ranges produced against it, every supplement promised in correspondence with its date as written, and the promises now overdue. The attorney decides what it means.",
+  "directory": "https://fullypowered.ai/workflows/discovery-commitments-register/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "deposition-transcript-summary",
+    "privilege-log-entry-check",
+    "court-order-deadline-notice-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal work prepared for a lawyer: a draft headed for the named attorney, quotation and location in place of characterisation, dates copied as written and never counted, the organisation's own papers as the only record, and every open point written as a line for the attorney to confirm."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/discovery-deficiency-tracker/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A register with one line for each request, the request and the answer to it in their exact words with service dates, Bates ranges and later supplements, a dated record of each conferral with its form and the people present, the undertakings given there with their dates, a fixed reference for each line, and items the papers do not settle marked for the attorney.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "audit/export/by-slug/discovery-deficiency-tracker.json",
+      "licence": "Apache-2.0",
+      "contribution": "A longer description of the same method in the same repository, from which come telling a firm undertaking apart from an agreement in principle and noting where in a response set each passage sits.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

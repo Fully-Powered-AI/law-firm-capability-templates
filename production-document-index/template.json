@@ -1,0 +1,65 @@
+{
+  "id": "production-document-index",
+  "name": "Document production index and summaries",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "From a production review counsel has cleared, the paralegal prepares a draft for that counsel: an index of every document by Bates range, a short summary of each, every statement cited to its Bates page, missing documents and differing passages listed, and anything matching counsel's screen list held by number only.",
+  "directory": "https://fullypowered.ai/workflows/production-document-index/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts"
+  ],
+  "industries": [
+    "industries/law-firms",
+    "industries/insurance",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "case-chronology",
+    "privilege-log-entry-check",
+    "deposition-transcript-summary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for legal preparation work: a draft headed for a named lawyer, quotation and location in place of characterisation, the organisation's own documents and rules as the only inputs, and nothing sent or filed."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/legal/discovery-document-summaries/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "One entry per produced document with its production number, date, author, recipients, type, a brief account and quotations located by Bates page; an opening count of the production and its date span; a Bates page behind each statement; material that may be privileged kept out of the summary for the lawyer; confidentiality markings noted; doubtful or clashing passages left as they stand; links between documents; and a list of documents mentioned but absent.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "audit/export/by-slug/discovery-document-summaries.json",
+      "licence": "Apache-2.0",
+      "contribution": "A longer description of the same method in the same repository, read for context. Every idea used here also appears in the file credited above.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "closed-file-retention-review",
+  "name": "Closed-file retention review",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "When closed matter files are ready for records review, the records officer has a draft list for supervising counsel in four groups: files whose period has run under the firm's own schedule, files under a hold, client originals not yet returned, and files that cannot be assessed. Nothing is destroyed or moved.",
+  "directory": "https://fullypowered.ai/workflows/closed-file-retention-review/",
+  "primary_function": "functions/legal-and-contracts",
+  "functions": [
+    "functions/legal-and-contracts",
+    "functions/compliance-risk-and-privacy"
+  ],
+  "industries": [
+    "industries/law-firms"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "matter-closing-checklist-preparation",
+    "legal-hold-custodian-tracker",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own published map of law-firm work, with no third-party text or method."
+    }
+  ]
+}
